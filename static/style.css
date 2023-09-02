@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(31, 30, 30);
+    color: white;
+    height: 100%;
+
+
+}
+
+div img {
+    height: 70px;
+    margin: -21px -7px;
+  
+
+}
+
+div .sub-btn {
+    display: flex;
+    color: #ffcc75;
+    background-color: #b4863792;
+    margin: 14px 7px;
+    padding: 5px;
+    border: 2px solid transparent;
+    border-radius: 21px;
+    /* font-size: 1.3rem; */
+  
+}
+
+
+.navbar {
+
+    margin: 19px 50px;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.navlinks {
+    margin: 70px 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.navbar i {
+    color: rgba(170, 167, 167, 0.608);
+    margin: 16px 15px;
+    padding: 2px 1px;
+}
+
+.navbar li :hover {
+    color: rgb(255, 249, 249);
+    font-size: 1.5rem;
+}
+
+.navbar .navlinks li {
+    list-style: none;
+
+
+}
+
+.navbar .navlinks li a {
+    text-decoration: none;
+    color: rgb(231, 222, 222);
+    padding: 0 23px;
+    
+
+
+}
