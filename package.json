@@ -4,7 +4,8 @@
   "description": "Hotstar clone",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'No build step required for static site.'",
+    "build": "npm install",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
