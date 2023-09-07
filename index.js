@@ -15,8 +15,8 @@ const port = 8100;
 
 // Express Specific Stuff
 // app.use('/static', express.static('static'));
-// app.use('/static', express.static(path.join(__dirname, 'static')));
-app.use(express.static(__dirname + '/static'));
+app.use('/static', express.static(path.join(__dirname, 'static')));
+// app.use(express.static(__dirname + '/static'));
 
 app.use(express.urlencoded());
 
